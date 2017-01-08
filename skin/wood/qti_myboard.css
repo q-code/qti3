@@ -1,0 +1,25 @@
+
+div.myboard {margin:0 0 15px auto;padding:8px;width:475px;background-color:#eeeeee;border:solid 1px #cccccc;border-radius:5px}
+div.myboardheader {height:33px}
+div.myboardheader p.title {display:inline-block;margin:3px 0 0 0;font-size:12pt;font-weight:bold;color:#aaaaaa}
+div.myboardheader p.buttons {float:right;margin:0}
+div.myboardheader a.button {display:inline-block;margin:0 0 5px 4px;padding:4px 7px 0 7px;height:21px;color:#666666;font-size:9pt;text-decoration:none;background-color:#dddddd;border:solid 1px #bbbbbb;border-radius:3px}
+div.myboardheader a.button:hover {color:#000000;border-color:#000000;text-decoration:none}
+div.myboardcontent {clear:both;margin:0;padding:4px;color:inherit;background-color:#ffffff;border-radius:3px}
+div.myboardcontent p {margin:0 0 3px 0}
+div.myboardcontent p.title {margin:0 0 3px;font-size:10pt}
+div.myboardcontent p.title a {font-size:10pt}
+div.myboardcontent p.date {text-align:right;font-size:8pt;font-style:italic;border-top:solid 1px #cccccc}
+div.myboardcontent p.content {margin:0;font-size:9pt}
+div#mylastitem {cursor:pointer}
+
+@media screen and (min-width:1024px)
+{
+div.myboard {margin-bottom:25px}
+div.view-c div.myboard {margin-bottom:15px}
+}
+
+@media handheld,screen and (max-width:640px)
+{
+div.myboard {margin:3px auto;width:95%}
+}

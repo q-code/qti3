@@ -1,0 +1,1 @@
+Vous pouvez ici d&eacute;placer, effacer ou &eacute;laguer les tickets par section. Elaguer signifie :  effacer les messages laiss&eacute;s sans r&eacute;ponse depuis un certain nombre de jour. Le nombre de sujets qui peuvent &ecirc;tre &eacute;lagu&eacute;s, affich&eacute; dans la derni&egrave;re colonne, d&eacute;pend du nombre de jour choisi (au bas de ce tableau).

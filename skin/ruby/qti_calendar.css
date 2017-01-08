@@ -1,0 +1,79 @@
+/* Layout */
+
+table.cal-header {margin:0 0 4px 0;width:700px}
+  td.cal-title {font-size:12pt;font-weight:bold;vertical-align:bottom}
+  td.cal-ctrl {text-align:right;vertical-align:middle}
+  a.button {margin:0 4px 0 0;padding:3px 10px 3px 10px;font-size:12pt}
+  a.button:hover {text-decoration:none;box-shadow:0 0 3px #bbbbbb}
+
+table.cal-footer {}
+  td.cal-next {width:220px}
+  td.cal-preview{width:250px;padding:0 10px}
+
+h2 {font-size:11pt;font-weight:bold;color:#000000}
+
+/* Days tables */
+
+#calendar td, #calendar th, #calendarnext td, #calendarnext th {padding:4px}
+
+#calendar {width:700px;box-shadow:2px 2px 5px #cccccc}
+  #calendar th {vertical-align:top;background-color:#cc3234;color:#ffffff;font-size:8pt;font-weight:bold}
+  #calendar th.week {font-weight:normal}
+  #calendar td {vertical-align:top;background-color:#f1f1f1;border-style:solid;border-width:0 1px 1px 0;border-color:#D8D7C0;color:#000000}
+
+#calendarnext {width:100%;border-left:solid 1px #D8D7C0;box-shadow:2px 2px 5px #cccccc}
+  #calendarnext th {vertical-align:middle;text-align:center;background-color:#cc3234;color:white}
+  #calendarnext td {vertical-align:middle;text-align:center;background-color:#f1f1f1;border-style:solid;border-width:1px 0 0 1px;border-color:#D8D7C0;color:#000000}
+
+#calendar td.dateout,
+#calendarnext td.dateout {background-color:#ffffff}
+#calendarnext #datetoday {border:solid 1px #CC3234}
+
+/* Date number */
+
+p.datenumber {margin:0;text-align:left;font-size:12pt;font-weight:bold}
+td.dateout p.datenumber {color:#aaaaaa}
+#datetoday p.datenumber {display:inline-block;margin:0;padding:1px 5px;background-color:#CC3234;color:white;border-radius:3px}
+#calendarnext td.dateout {color:#aaaaaa}
+
+/* Date icons */
+
+p.dateicon {margin:0;text-align:right;font-size:8pt}
+p.dateicon a {font-size:8pt}
+#calendarnext a {padding:0px 3px;font-size:8pt;font-weight:bold;color:#ff0000;text-decoration:none;}
+#calendarnext a:hover {text-decoration:none;background-color:#CC3234;color:white;border-radius:5px}
+a.othersection img { filter:grayscale(1) }
+
+/* PREVIEW */
+
+div#previewcontainer {width:210px}
+.preview_section {margin:0}
+div.preview {margin:4px 0 4px 0;padding:4px;background-color:#E8E7D7;border-style:solid;border-width:0 1px 1px 0;border-color:#D8D7C0}
+.preview_title {margin:0;font-size:8pt;font-weight:bold;border-style:solid;border-width:0 0 1px 0;border-color:black}
+.preview_message {margin:5px 0 4px 0;font-size:8pt}
+.preview_user {margin:2px 0 2px 0;font-size:8pt;font-weight:bold}
+.preview_date {margin:2px 0 2px 0;font-size:8pt}
+
+/* ==== MEDIA SMALL ==== */
+
+@media screen and (min-width:641px) and (max-width:870px)
+{
+table.cal-header,
+table.calendar {width:580px}
+}
+
+/* ==== MEDIA EXTRA SMALL ==== */
+
+@media screen and (min-width:501px) and (max-width:640px)
+{
+table.cal-header,
+table.calendar {width:100%}
+table.cal-header td {display:block}
+}
+
+@media handheld,screen and (max-width:500px)
+{
+table.cal-header,
+table.calendar {width:100%}
+table.cal-header td {display:block}
+}

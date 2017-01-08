@@ -1,0 +1,85 @@
+div.gmap {margin:10px auto 0 auto;padding:5px;border:solid 1px #aaaaaa;border-radius:3px;background-color:#ffffff;color:#555555}
+div.gmap p.header {margin:0 0 5px 0}
+div.gmap p.footer {margin:5px 0 0 0}
+div.gmap.hidden p.footer {margin:0}
+
+div.gmap p,
+div.gmap select {font-family:verdana,arial,sans-serif;font-size:8pt}
+div.gmap select {background-color:#ffffff;border:solid 1px #888888;color:#000000}
+div.gmap a i {font-size:9pt;padding:2px 3px;border:solid 1px #dddddd;border-radius:2px}
+div.gmap a i:hover {border:solid 1px #555555}
+
+div.gmap_disabled {margin:5px;padding:5px;background-color:inherit;color:#888888}
+
+#map_canvas {width:auto;height:380px;background-image:url(qtim_map_load.gif);background-repeat:no-repeat;background-position:center center}
+#gmapCalendar #map_canvas {height:240px}
+
+div.gmap.item {margin:0 0 2px auto;width:550px;position:relative;top:-10px;right:-10px}
+div.gmap.item.compact {margin:0 0 2px auto;width:350px;position:relative;top:-10px;right:-10px}
+div.gmap.item #map_canvas {height:280px}
+div.gmap.item.compact #map_canvas {height:180px}
+
+p.gmap.nomap {text-align:right;color:#888888}
+a.gmap, a.gmap:visited {font-family:verdana,arial,sans-serif;font-size:8pt} /*color and underline inherited from current skin*/
+a.gmap:hover {text-decoration:underline} /*color inherited from current skin*/
+.ginfo {margin-top:5px;width:225px;font-family:verdana,arial,sans-serif;font-size:8pt}
+
+input#find {padding:0 2px;height:20px;outline:none;border-radius:3px;border:1px solid #cccccc}
+input#find:focus, img#findit:hover {border-color:#888888}
+
+#mapfindit {margin:0 0 0 2px;padding:4px;color:#aaaaaa;border:solid 1px #aaaaaa;border-radius:3px;cursor:pointer}
+#mapfindit:hover {color:#666666;border-color:#666666}
+
+/* used in the edit form */
+
+div.canvashandler {margin:0;padding:0}
+img.canvashandler {width:9px;height:6px;margin:0 5px 0 0;vertical-align:middle}
+a.canvashandler {
+ display:inline-block;vertical-align:top;margin:0 10px;padding:2px 5px;
+ background-color:#f5f5f5;
+ border-style:solid;border-width:0 1px 1px 1px;border-color:#bbbbbb;border-radius: 0 0 3px 3px;
+ outline:0;font-size:8pt;text-shadow:1px 1px 0 white;text-decoration:none}
+a.canvashandler:hover {border-color:#999999;box-shadow:0 2px 2px #cccccc}
+
+img.marker {margin:0 3px 3px 0;vertical-align:middle;padding:2px;border:solid 1px #cccccc;border-radius:3px}
+img.marker:hover {border-color:#aaaaaa;background-color:#ffffff}
+img.marker.checked {background-color:#ffffff}
+img.markerprofileimage {float:left;max-width:60px;max-height:60px;margin:0 5px 0 0}
+
+img#markerpicked,
+img#markerpicked_U,
+img#markerpicked_M,
+img#markerpicked_A {margin:0 0 5px 0;padding:5px;vertical-align:top;background-color:#ffffff;border:solid 1px #aaaaaa;border-radius:3px}
+div.markerpicker {display:inline-block;margin:3px;padding:5px;width:450px;height:55px;overflow:auto;white-space:nowrap;opacity:0.3}
+div.markerpicker:hover {opacity:1}
+div.markerpicker input {display:none}
+
+@media print
+{
+  p.gmap.commands {display:none}
+  div.canvashandler {display:none} 
+}
+
+/* ==== MEDIA SMALL ==== */
+
+@media screen and (min-width:641px) and (max-width:870px)
+{
+div.gmap.item {margin:0 0 10px 0;width:550px;position:static}
+div.gmap.item.compact {margin:0;width:350px;position:static}
+}
+/* ==== MEDIA EXTRA SMALL ==== */
+
+@media screen and (min-width:501px) and (max-width:640px)
+{
+div#map_canvas {width:auto}
+div.gmap.item {margin:0 0 3px 0;width:auto;position:static}
+div.gmap.item.compact {margin:0;width:auto;position:static}
+}
+
+@media handheld,screen and (max-width:500px)
+{
+div#map_canvas {width:auto}
+div.gmap.item,
+div.gmap.item.compact {margin:0 0 3px 0;width:auto;position:static}
+}
+

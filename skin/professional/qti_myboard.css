@@ -1,0 +1,28 @@
+div.myboard {margin:0 0 15px auto;padding:8px;width:480px;color:inherit;background-color:#C3D9FF;border:1px solid #B1BFED;border-radius:7px 7px 0 0}
+div.myboardheader {height:33px}
+div.myboardheader p.title {display:inline-block;margin:3px 0 0 0;font-size:12pt;font-weight:bold;color:#156AC2}
+div.myboardheader p.buttons {float:right;margin:0}
+div.myboardheader a.button {margin:0 0 4px 4px;padding:4px 8px 0 8px;height:22px;background-color:#E8EEF7;border-color:#B1BFED;color:#3C83D0;font-size:10pt;text-shadow:none}
+div.myboardheader a.button:hover {color:#0000ff;border-color:#7777ff;text-decoration:none}
+div.myboardcontent {clear:both;margin:0;padding:4px;color:inherit;background-color:#E8EEF7;border:1px solid #C3D9FF;border-radius:3px}
+
+#mylastitem p {margin:0;padding:0}
+#mylastitem p.title {margin:0;font-size:10pt}
+#mylastitem p.title a {font-size:10pt}
+#mylastitem p.date {margin:3px 0 0 0;text-align:right;font-size:8pt;font-style:italic;border-top:solid 1px #C3D9FF}
+#mylastitem p.content {margin:3px 0 5px 0;color:#3C83D0;font-size:10pt}
+
+#mylastitem div {display:none}
+div.myboard:hover #mylastitem div {display:block;position:absolute;z-index:10;width:454px;padding:3px 8px;background-color:#E8EEF7;border:solid 1px #B1BFED;border-top:none;cursor:pointer;box-shadow:0 4px 4px #cccccc}
+
+@media screen and (min-width:1024px)
+{
+div.myboard {margin-bottom:25px}
+div.view-c div.myboard {margin-bottom:15px}
+}
+
+@media handheld,screen and (max-width:640px)
+{
+div.myboard {margin:3px auto;width:95%}
+div.myboard:hover #mylastitem div {width:85%}
+}

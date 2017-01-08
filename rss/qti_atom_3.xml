@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><feed xmlns="http://www.w3.org/2005/Atom">
+<title>QT-cute - My requests</title><link href="http://localhost/qtcute/soft/qti3/qti_items.php?s=3" /><link href="http://localhost/qtcute/soft/qti3/rss/qti_atom_3.xml" rel="self" /><id>http://localhost/qtcute/soft/qti3/qti_items.php?s=3</id>
+<updated>2015-12-21T23:52:16+01:00</updated>
+<author><name>Webmaster</name><email>phvandenberghe@gmail.com</email></author>
+<category term="Troubleticket" /><generator>QuickTicket 3.0</generator>
+<icon>http://localhost/qtcute/soft/qti3/rss/qti_icon.gif</icon>
+<logo>http://localhost/qtcute/soft/qti3/rss/qti_logo.gif</logo>
+<entry>
+<id>http://localhost/qtcute/soft/qti3/qti_item.php?t=52&amp;p=61</id>
+<title>This question</title>
+<updated>2015-12-21T23:52:16+01:00</updated>
+<author><name>Admin</name></author>
+<content>This question</content>
+<link href="http://localhost/qtcute/soft/qti3/qti_item.php?t=52&amp;p=61" /></entry>
+<entry>
+<id>http://localhost/qtcute/soft/qti3/qti_item.php?t=28&amp;p=32</id>
+<title>Request from Lucy</title>
+<updated>2015-12-20T23:27:34+01:00</updated>
+<author><name>Lucy</name></author>
+<content>Request from Lucy</content>
+<link href="http://localhost/qtcute/soft/qti3/qti_item.php?t=28&amp;p=32" /></entry>
+<entry>
+<id>http://localhost/qtcute/soft/qti3/qti_item.php?t=51&amp;p=58</id>
+<title>Request from Lucy</title>
+<updated>2015-12-20T22:36:47+01:00</updated>
+<author><name>Lucy</name></author>
+<content>Request from Lucy</content>
+<link href="http://localhost/qtcute/soft/qti3/qti_item.php?t=51&amp;p=58" /></entry>
+</feed>

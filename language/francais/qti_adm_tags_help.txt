@@ -1,0 +1,44 @@
+<h2>Introduction</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>Les cat&eacute;gories sont des <b>tags</b> (marqueurs personnels) que les utilisateurs peuvent attacher aux tickets. Ces cat&eacute;gories sont utilis&eacute;es pour grouper les tickets ou g&eacute;n&eacute;rer des statistiques particuli&egrave;res. Les cat&eacute;gories que l'utilisateur peut ajouter au ticket sont libres. Cependant, si une liste de cat&eacute;gories est d&eacute;finie, le system va pr&eacute;senter ces <b>cat&eacute;gories propos&eacute;es</b> dans un menu d&eacute;roulant.</p>
+<p>La liste de ces cat&eacute;gories propos&eacute;es peut &ecirc;tre cr&eacute;&eacute;e par l'administrateur, par section (et par langue). Ces listes sont de simples fichiers <b>csv</b> sock&eacute;s dans le r&eacute;pertoire /upload/.</p>
+</div>
+
+<h2>Fichier CSV</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>Une liste de cat&eacute;gories est un simple fichier texte en "comma separated values" (valeurs s&eacute;par&eacute;es par un point virgule).<br />
+Le fichier contient, par ligne : un tag et, optionnellement, une courte description.</p>
+</div>
+
+<div style="margin:0;padding-left:10px">
+<p>Exemple:</p>
+<p style="color:#139613">
+Airside;Incident located airside<br />
+Landside;Incident located landside<br />
+Seaside;Incident located seaside
+</p>
+<p class="small">Note: Si vous utilisez des accents, assurez-vous que votre fichier est cod&eacute; en utf-8.</p>
+</div>
+
+<h2>Pour cr&eacute;er une liste commune &agrave; toutes les sections</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Cr&eacute;er un fichier .csv nomm&eacute; <b>tags_fr.csv</b><br />
+2 - Uploadez votre fichier en utilisant la page d'administration (ou par ftp)
+</p>
+<p class="small">Note: "fr" signifie fran&ccedil;ais, vous pouvez cr&eacute;er des listes dans d'autres langues: "tags_en.csv", "tags_nl.csv", ...</p>
+</div>
+
+<h2>Pour cr&eacute;er une liste sp&eacute;cifique &agrave; une section</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Cr&eacute;er un fichier .csv nomm&eacute; <b>tags_fr_0.csv</b> o&ugrave; "0" est l'id de la section.<br />
+2 - Uploadez votre fichier en utilisant la page d'administration (ou par ftp)
+</p>
+<p class="small">Note: "fr" signifie fran&ccedil;ais, vous pouvez cr&eacute;er des listes dans d'autres langues: "tags_en_0.csv", "tags_nl_0.csv", ...</p>
+</div>
+

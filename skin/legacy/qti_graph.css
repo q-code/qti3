@@ -1,0 +1,36 @@
+table.header{width:100%;margin:0}
+table.header td.title {margin:0;padding:0;vertical-align:middle;font-size:12pt;font-weight:bold}
+table.header td.controls {margin:0;padding:0;vertical-align:middle;font-size:8pt;text-align:right}
+
+div.qtgraph {display:inline-block;margin:5px 0;padding:5px;width:360px;background-color:white;border:solid 1px #999999;border-radius:3px}
+div.qtgraph p.title {margin:0 0 5px 0;padding:0;color:#999999;font-weight:bold;text-align:center}
+
+table.layout {width:100%;margin:0 0 5px 0}
+table.layout td.col1 {text-align:left}
+table.layout td.col2 {text-align:right}
+
+table.qtgraph {table-layout:fixed;margin:0 auto 5px auto;background-color:white;border-spacing:1px} /* width is defined in the page */
+table.qtgraph td {padding:0}
+tr.qtgraph_bar {}
+td.qtgraph_bar {vertical-align:bottom;color:inherit;background-color:#f0f0f0;text-align:center;overflow:hidden}
+td.qtgraph_label {font-size:8pt;text-align:center;overflow:hidden}
+td.qtgraph_serie {text-align:center}
+td.qtgraph_value {font-size:8pt;text-align:center;overflow:hidden}
+
+img.qtgraph_bar {vertical-align:bottom}
+td.qtgraph_value.color1 {color:#000066}
+img.qtgraph_bar.color1 {background-color:#000066}
+td.qtgraph_value.color2 {color:#990099}
+img.qtgraph_bar.color2 {background-color:#990099}
+td.qtgraph_value.color3 {color:#009999}
+img.qtgraph_bar.color3 {background-color:#009999}
+
+/* ==== MEDIA SIZE ==== */
+
+/* Small screen */
+
+@media handheld,screen and (max-width:870px)
+{
+  table.layout td.col1,
+  table.layout td.col2 {display: block;width:100%;text-align:right}
+}

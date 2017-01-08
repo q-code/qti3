@@ -1,0 +1,64 @@
+/* Search button (addedum to layout a.button style) */
+
+i.ajax.fa { margin:0 4px 0 0;color:#888888}
+#searchcmd {margin:0;text-align:right}
+#searchcmd img, #searchcmd i {vertical-align:middle;margin-right:6px}
+#searchoptions {display:inline-block;margin:0 0 5px 0;padding:5px;background-color:#f4f4f4;border:1px solid #dddddd;border-radius:3px}
+#searchoptions p {margin:0 5px 0 0}
+#searchoptions img {vertical-align:middle;margin-right:5px}
+#searchcriteria {margin:0}
+
+/* Stats options */
+
+div.pg-stats #data-options {height:85px}
+
+div.statoptions {float:right;margin:0;padding:5px;background-color:#f9f9f9;border:solid 1px #c0c0c0;border-radius:5px}
+div.statoptions h2 {margin:0 0 5px 0;color:#999999}
+p.legendtitle {margin:0 0 5px 0;font-weight:bold;color:#aaaaaa}
+div.statoptions td {padding:2px;vertical-align:top}
+
+/* Tab pannel */
+
+div.pan {margin:0;padding:10px 15px 15px 15px;background-color:#ffffff;border:solid 1px #aaaaaa;border-radius:5px}
+div.pan-top {margin:0 0 10px 0;padding:0;text-align:right;color:#aaaaaa;background-color:inherit;font-size:11pt;font-weight:bold;font-style:italic}
+div.pan-bot {margin:15px 0 0 0;padding:0;text-align:right}
+
+div.tab {position:relative;top:1px;margin:0;padding:0;height:40px}
+div.tab ul {position:absolute;bottom:0;list-style-type:none;margin:0 0 0 10px;padding:0}
+div.tab li {float:left;margin:0;padding:5px 10px;border-width:1px;border-style:solid;border-color:#d4d4d4 #d4d4d4 #AAAAAA #d4d4d4;border-radius:5px 5px 0 0;font-size:8pt;font-weight:bold;white-space:nowrap;background-color:#eeeeee}
+div.tab li a {font-size:8pt;font-weight:bold;text-decoration:none}
+div.tab li:hover {border-color:#aaaaaa;background-color:#ffffff}
+div.tab li.active {border-color:#aaaaaa #aaaaaa #ffffff #aaaaaa;background-color:#ffffff}
+div.pan p {margin:0}
+
+/* border */
+table.t-sec {margin:0 0 15px 0;background-color:#f4f4f4;border:1px solid #dddddd;border-radius:3px}
+table.t-sec td,
+table.t-sec th {padding:7px 7px 7px 4px;vertical-align:middle}
+table.t-sec td.c-icon {width:40px;text-align:center}
+/* text */
+table.t-sec th {font-size:8pt;font-weight:bold;color:#555555}  
+table.t-sec td {font-size:9pt}
+table.t-sec th a {font-size:8pt;font-weight:bold;color:#555555;text-decoration:none}
+table.t-sec th a:hover {text-decoration:underline}
+
+/* Stat table */
+
+table.t-data {margin:0;background-color:#FFFFFF;width:100%;border:1px solid #dddddd}
+table.t-data th,
+table.t-data td {padding:4px;text-align:center}
+
+table.t-data th {background-color:#e2e2e2;font-size:8pt;font-weight:bold;color:#555555}
+table.t-data .seriename {width:120px;background-color:#e2e2e2}
+table.t-data .seriecolor {width:15px;background-color:#e2e2e2;vertical-align:middle}
+table.t-data th.seriename.last {font-weight:bold}
+table.t-data td.values.last {background-color:#f4f4f4;font-weight:bold}
+table.t-data td.values.last a {font-weight:bold}
+table.t-data td {border-top:solid 1px #dddddd}
+
+/* ==== MEDIA EXTRA SMALL ==== */
+
+@media handheld,screen and (max-width:500px)
+{
+img.i-note, img.i-user {display:none}
+}

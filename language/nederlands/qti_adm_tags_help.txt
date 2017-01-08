@@ -1,0 +1,44 @@
+<h2>Introductie</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>De categorie&euml;n zijn <b>tags</b> (markeringen) de gebruiker aan een ticket kan vastmaken. Deze categorie&euml;n worden om tickets groepen of specifieke statistieken te produceren. De categorie&euml;n een gebruiker kan vastmaken is vrij. Niettemin, als een lijst van categorie&euml;n wordt bepaald, zal het systeem deze <b>voorgestelde categorie&euml;n</b> in een drop-down lijst tonen.</p>
+<p>De lijst van deze voorgestelde categorie&euml;n kan door de Beheerder, per sectie (en per taal) worden bepaald. De lijsten zijn eenvoudige <b>csv</b> files die in de /upload/ map worden opgeslagen.</p>
+</div>
+
+<h2>CSV file</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>De lijst van categorie&euml;n is een text file met puntkomma gescheiden waarden.<br />
+De file heeft per lijn: een tag en, naar keuze, een korte beschrijving.</p>
+</div>
+
+<div style="margin:0;padding-left:10px">
+<p>Voorbeeld:</p>
+<p style="color:#139613">
+Airside;Incident located airside<br />
+Landside;Incident located landside<br />
+Seaside;Incident located seaside
+</p>
+<p class="small">Nota: Als u accentkarakters gebruikt, zeker ben dat uw file in utf-8 gecodeerd is.</p>
+</div>
+
+<h2>Om een lijst van categorie&euml;n te cre&euml;ren gemeenschappelijk voor alle secties</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Een .csv file maken, met naam <b>tags_en.csv</b><br />
+2 - De file door de beheer pagina uploaden (of door ftp software)
+</p>
+<p class="small">Nota: "nl" betekend nederlands, voor andere talen: "tags_fr.csv", "tags_en.csv", ...</p>
+</div>
+
+<h2>Om een lijst van categorie&euml;n te cre&euml;ren specifiek voor een sectie</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Maken een .csv file named <b>tags_en_0.csv</b> waar "0" is de sectie-id.<br />
+2 - De file door de beheer pagina uploaden (of door ftp software)
+</p>
+<p class="small">Nota: "nl" betekend nederlands, voor andere talen: "tags_fr_0.csv", "tags_en_0.csv", ...</p>
+</div>
+

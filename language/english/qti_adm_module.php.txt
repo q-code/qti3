@@ -1,0 +1,1 @@
+This is the final step of the module installation (be sure that the files and folders of this module have been copied on your host, following the installation instructions). Type here the <b>name</b> of the module you want to use. Default parameters will be added and a new menu item will be included in the administration panel (or removed in case of uninstall).

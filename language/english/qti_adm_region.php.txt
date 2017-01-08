@@ -1,0 +1,1 @@
+The application time is used as ticket and message issue time. The clock, visible at the bottom of the pages, can show an other time like a reference time specific to your organisation (e.g. the GMT time). If your webhost supports PHP 5.2 or next, you can change the application time.

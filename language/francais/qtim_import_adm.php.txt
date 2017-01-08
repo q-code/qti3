@@ -1,0 +1,1 @@
+Ce module permet d'importer des donn&eacute;es QuickTicket. Seuls les tickets et messages peuvent &ecirc;tre import&eacute;. Les tickets sont import&eacute;s dans une seule section.

@@ -1,0 +1,44 @@
+<h2>Introduction</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>The categories are <b>tags</b> the users can attach to a ticket. These categories are used to group tickets or to generate statistics on a specific subset of tickets. The categories a user can attach are free. Nevertheless, if a list of categories is defined, the system will present these <b>proposed categories</b> in a drop-down list.</p>
+<p>The list of these proposed categories can be defined by the Administrator, by section (and by language). The lists are simple <b>csv</b> files stored in the /upload/ directory.</p>
+</div>
+
+<h2>CSV file</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>The list of categories is a simple text file with comma separated values (where ; is the separator).<br />
+The file contains per row: one tag and, optionally, a short description.</p>
+</div>
+
+<div style="margin:0;padding-left:10px">
+<p>Example:</p>
+<p style="color:#139613">
+Airside;Incident located airside<br />
+Landside;Incident located landside<br />
+Seaside;Incident located seaside
+</p>
+<p class="small">Note: If you use accent characters, be sure that your file is coded in utf-8.</p>
+</div>
+
+<h2>To create a list of categories common to all sections</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Create a .csv file named <b>tags_en.csv</b><br />
+2 - Upload your file using the administration interface (or using a ftp software)
+</p>
+<p class="small">Note: "en" means english, you can create categories in other language: "tags_fr.csv", "tags_nl.csv", ...</p>
+</div>
+
+<h2>To create a list of categories specific to a section</h2>
+
+<div style="margin:0;padding-left:10px">
+<p>
+1 - Create a .csv file named <b>tags_en_0.csv</b> where "0" is the id of the section.<br />
+2 - Upload your file using the administration interface (or using a ftp software)
+</p>
+<p class="small">Note: "en" means english, you can create categories in other language: "tags_fr_0.csv", "tags_nl_0.csv", ...</p>
+</div>
+

@@ -1,0 +1,50 @@
+form {display:inline}
+img {border-width:0;vertical-align:middle}
+table {margin:0;width:100%;border-spacing:0;border-width:0}
+th {padding:0;text-align:left;vertical-align:middle}
+td {padding:0;text-align:left;vertical-align:top}
+ul.inline {list-style-type:none;margin:0;padding:0}
+ul.inline li {display:inline-block}
+
+input,select {vertical-align:middle}
+optgroup, option {padding:1px;font-family:Verdana, Arial, sans-serif}
+option {background-color:#ffffff;color:#000000}
+optgroup {background-color:#eeeeee;color:#444444;font-weight:bold}
+optgroup option {padding:1px 1px 1px 7px}
+option:disabled {color:#888888}
+
+p.debug {margin:0;font-family:Arial;font-size:8pt}
+.small {font-size:8pt}
+.error {color:#ff0000;font-weight:bold;font-style:italic}
+.warning {color:#ff0000}
+.disabled {color:#888888}
+.bold {font-weight:bold}
+.italic {font-style:italic}
+.center {text-align:center}
+.right {text-align:right}
+.left {text-align:left}
+.clickable:hover {cursor:pointer}
+.clear {clear:both}
+.upper {text-transform:uppercase}
+
+div.separator {clear:both;height:15px;margin:0;padding:0}
+div.view-c div.separator {display:none}
+@media screen and (min-width:1024px) {div.separator {height:25px}}
+@media handheld,screen and (max-width:640px) {div.separator {height:10px}}
+
+/* jquery messageinfo and ajax */
+
+#pagedialog
+{
+display:none;z-index:10;position:fixed;top:20px;left:50%;
+margin-left:-150px;width:300px;padding:20px;
+font-weight:bold;white-space:pre-line;vertical-align:middle;
+background:#ffc;border:1px solid #666666;border-radius:8px;box-shadow: 0 0 5px 5px #aaaaaa
+}
+#pagedialog-ico {float:left;margin:0 20px 0 0}
+#pagedialog-txt {font-weight:bold}
+
+.jvalue {font-family:Arial, sans-serif;font-size:9pt}
+.jvalue img {margin:0 4px 0 0;vertical-align:middle} 
+.jinfo {font-family:Arial, sans-serif;font-size:9pt;font-style:italic}
+

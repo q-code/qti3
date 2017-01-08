@@ -1,0 +1,91 @@
+/* Layout */
+
+table.cal-header {margin:0 0 4px 0;width:700px}
+  td.cal-title {font-size:12pt;vertical-align:bottom}
+  td.cal-ctrl {text-align:right;vertical-align:middle}
+  td.cal-ctrl input[type=submit] {margin:0;padding:1px 5px;vertical-align:middle;background-color:#1377DB;color:white;border-radius:3px;border:solid 1px #1377DB;text-decoration:none}
+
+table.cal-footer {}
+  td.cal-next {width:220px}
+  td.cal-preview{width:250px;padding:0 10px}
+
+h2 {font-size:11pt;font-weight:bold;color:#000000}
+
+/* Days tables */
+
+#calendar td, #calendar th, #calendarnext td, #calendarnext th {padding:4px}
+
+#calendar {width:700px;border:solid 1px #AAAAAA}
+  #calendar th {vertical-align:top;background-color:#666666;color:#ffffff;font-size:9pt;font-weight:normal}
+  #calendar td {vertical-align:top;background-color:#FFFFFF;border-style:solid;border-width:1px 0 0 1px;border-color:#dddddd;color:#444444}
+  #calendar th.week {border-color:#AAAAAA;font-weight:normal}
+
+#calendarnext {width:100%;border:solid 1px #AAAAAA}
+/*  #calendarnext th {vertical-align:middle;text-align:center;background-color:#AAAAAA;border-style:solid;border-width:0 0 2px 0;border-color:#CCCCCC;color:#444444;font-size:8pt;font-weight:bold}*/
+  #calendarnext th {vertical-align:middle;text-align:center;background-color:#666666;color:#ffffff;font-size:9pt;font-weight:bold}
+  #calendarnext td {vertical-align:middle;text-align:center;border-style:solid;border-width:1px 0 0 1px;border-color:#dddddd}
+
+#calendar td.dateout,
+#calendarnext td.dateout {background-color:#EEEEEE}
+
+/* Date number */
+
+p.datenumber {margin:0;font-size:12pt;font-weight:bold}
+td.dateout p.datenumber {color:#444444;font-weight:normal}
+#datetoday p.datenumber {display:inline-block;margin:0;padding:1px 5px 1px 3px;background-color:#c3d9ff;border-radius:3px}
+#calendarnext td.date {font-weight:normal}
+#calendarnext td.date a {font-weight:bold}
+
+#calendarnext td.dateout {font-weight:normal}
+#calendarnext #datetoday {background-color:#C3D9FF}
+
+/* Date icons */
+
+p.dateicon {margin:0;text-align:right;font-size:8pt}
+a.dateicon {font-size:8pt}
+a.othersection img { filter:grayscale(1) }
+
+/* PREVIEW */
+
+div#previewcontainer {width:210px}
+.preview_section {margin:0}
+div.preview {margin:4px 0 4px 0;padding:4px;background-color:#f2f2f2;border-style:solid;border-width:1px;border-color:#CCCCCC #AAAAAA #AAAAAA #CCCCCC}
+.preview_title {margin:0;font-size:8pt;font-weight:bold;border-style:solid;border-width:0 0 1px 0;border-color:#AAAAAA}
+.preview_message {margin:5px 0 4px 0;font-size:8pt}
+.preview_user {margin:2px 0 2px 0;font-size:8pt;font-weight:bold}
+.preview_date {margin:2px 0 2px 0;font-size:8pt}
+
+/* ==== MEDIA SMALL ==== */
+
+@media screen and (min-width:641px) and (max-width:870px)
+{
+table.cal-header,
+table.calendar {width:580px}
+td.cal-next {display:none}
+td.cal-preview{width:40%;padding:0}
+div#previewcontainer {width:95%}
+}
+
+/* ==== MEDIA EXTRA SMALL ==== */
+
+@media screen and (min-width:501px) and (max-width:640px)
+{
+table.cal-header,
+table.calendar {width:100%}
+table.cal-header td {display:block}
+td.calendarfooter {display:block}
+td.cal-next {display:none}
+td.cal-preview{width:100%;padding:0}
+div#previewcontainer {width:100%}
+}
+
+@media handheld,screen and (max-width:500px)
+{
+table.cal-header,
+table.calendar {width:100%}
+table.cal-header td {display:block}
+td.calendarfooter {display:block}
+td.cal-next {display:none}
+td.cal-preview{width:100%;padding:0}
+div#previewcontainer {width:100%}
+}

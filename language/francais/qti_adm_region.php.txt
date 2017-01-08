@@ -1,0 +1,1 @@
+L'heure de l'application est utilis&eacute;e comme heure de cr&eacute;ation des tickets et messages. L'horloge affich&eacute;e en bas de page peut indiquer une autre heure (l'heure de r&eacute;f&eacute;rence de votre organisation comme par exemple l'heure GMT). Avec un server web supportant le php 5.2 ou plus, vous pouvez changer l'heure de l'application.
